@@ -1,0 +1,30 @@
+{
+  "name": "lynnic-en",
+  "version": "0.0.1",
+  "description": "lynnic english home",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-compass": "^2.0.4",
+    "gulp-concat": "^2.5.2",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^1.3.3",
+    "gulp-uglify": "^1.2.0",
+    "gulp-webserver": "^0.9.0",
+    "imagemin": "^3.1.0",
+    "opn": "^1.0.1",
+    "tiny-lr": "^0.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lynnic",
+  "license": "ISC"
+}

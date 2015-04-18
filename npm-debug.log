@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'cache',
+1 verbose cli   'clean' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 error Error: EPERM, unlink 'C:\Program Files\nodejs\node_cache\decompress-zip'
+5 error  { [Error: EPERM, unlink 'C:\Program Files\nodejs\node_cache\decompress-zip']
+5 error   errno: 50,
+5 error   code: 'EPERM',
+5 error   path: 'C:\\Program Files\\nodejs\\node_cache\\decompress-zip' }
+6 error Please try running this command again as root/Administrator.
+7 error System Windows_NT 6.2.9200
+8 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "cache" "clean"
+9 error cwd D:\workbench\lynnic-en
+10 error node -v v0.10.36
+11 error npm -v 1.4.28
+12 error path C:\Program Files\nodejs\node_cache\decompress-zip
+13 error code EPERM
+14 error errno 50
+15 error stack Error: EPERM, unlink 'C:\Program Files\nodejs\node_cache\decompress-zip'
+16 verbose exit [ 50, true ]
